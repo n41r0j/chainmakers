@@ -1,0 +1,52 @@
+#!/bin/bash
+
+alias chain="komodo-cli -ac_name=CHAIN"
+AMOUNT=$(echo 999999*0.10 / 43 | bc )
+echo "Airdropping $AMOUNT to each voter!"
+
+# Comment this out to Do The Thing
+exit
+
+chain sendtoaddress RTNVt8e34Fm31o8osk8nX8SQcbmJXSu6rf $AMOUNT
+chain sendtoaddress RNSFs3Vjpep4qhCxGhmqbpzi46xf4HWHh8 $AMOUNT
+chain sendtoaddress RU4qPt7ekPB11nnx3WzVf1Utfx8V3H5FYh $AMOUNT
+chain sendtoaddress RSg271ZWRrxemsCkYgn5VEnqnUFU5AUJgQ $AMOUNT
+chain sendtoaddress RY5E8hWw28cHmeQT2GbYyihh34Tvp4Q9qY $AMOUNT
+chain sendtoaddress RAfW9pukafJsa2CweFztAsFxaSW8HT7KfY $AMOUNT
+chain sendtoaddress RKmREWUZmLMR8SE2rbfHQ26M85WpaUzoVM $AMOUNT
+chain sendtoaddress RHkDqjCZcXqpP33w9CFMVbLcNbD2PCTwTp $AMOUNT
+chain sendtoaddress RTy19MTqxX8xRrUdHmrizD7fxL6YcgsvVs $AMOUNT
+chain sendtoaddress RLgQSp5USfZeQvNxeHLVA9hsEa5oKWEMkW $AMOUNT
+chain sendtoaddress RYLTfS14igz6EagxRYgHSMZBSBjGT5BGSG $AMOUNT
+chain sendtoaddress RNSFs3Vjpep4qhCxGhmqbpzi46xf4HWHh8 $AMOUNT
+chain sendtoaddress RWjWGj2RG7EK5NxUMeQ1VktPJRxbsmYQEA $AMOUNT
+chain sendtoaddress RRLQJ9yhGsNzf2HKLNf3qQH7Rnitai995n $AMOUNT
+chain sendtoaddress RFVp94ZGAAbFhKZG9BwuCBwEjDG9gCpY1g $AMOUNT
+chain sendtoaddress REJAdP3icN9rT7rpxixPKc91WSm8s4uj2c $AMOUNT
+chain sendtoaddress RAdD1LGMXzFhCQTi3kgoLvb5H8LmNTNDnH $AMOUNT
+chain sendtoaddress RLTZVdyABnKr1hUA3VSETuwgDRBCVR53BM $AMOUNT
+chain sendtoaddress RBU9ioW2xnDYtq52EYSh5HB5ghtMcKkkmi $AMOUNT
+chain sendtoaddress RGitZKo8pi2gRhj1JLV8M7ZKNxkm6RRVEU $AMOUNT
+chain sendtoaddress R9tG2NXGWUqb557VgRc9ouPxxp7qKvZfAj $AMOUNT
+chain sendtoaddress RDaQYvsP6se5tMTe4PKXN7a5SH4N9up1M8 $AMOUNT
+chain sendtoaddress RHPGxpiwRHP4dKZXjYPdpon1nCto7qVE8s $AMOUNT
+chain sendtoaddress RXdBJ5cWDcS38ykuggEQZh3vSztxwmG3ut $AMOUNT
+chain sendtoaddress RCanny9VucpbjJ5xZmvX1mq1a7Xg5VtcJR $AMOUNT
+chain sendtoaddress RCd5xQMzktA2Pjh6eJuKwmvmpsU33bNhPM $AMOUNT
+chain sendtoaddress RMYqPrPpgosrjcoS34WmBtG9KDRmE7WcXK $AMOUNT
+chain sendtoaddress RFteZXyAy9hJMJav1zPop5RDEam5Znfku2 $AMOUNT
+chain sendtoaddress RCyPv5yxQBEXneh9pX4Wofj76mDieXbmLw $AMOUNT
+chain sendtoaddress RBaaVttGxqWJDHKucn7VVwsywkwu2CrDPf $AMOUNT
+chain sendtoaddress REJpKpXKb2yx32ZAMuXZZKCmKv9ux7N2n5 $AMOUNT
+chain sendtoaddress RLimUpPv5KPfU79NaN3tBxvRP1hyam65FH $AMOUNT
+chain sendtoaddress RKm2BWQwZnrDrGKQRa3h7YnQfNXuJbTm7v $AMOUNT
+chain sendtoaddress RR7Y9wfEGatAhk7iL6wA8ypuRKxSef1Kzc $AMOUNT
+chain sendtoaddress RK5xVwfd1Qf8iuTymMUUri22rYxDW3396R $AMOUNT
+chain sendtoaddress RKdCvGQZbjUf51ae6xsNu5by8tZL5ztjhW $AMOUNT
+chain sendtoaddress R9oU3HRLzRDUaKwibUipkJxQ38zS9tCqDg $AMOUNT
+chain sendtoaddress RCtGSN2FKuoaWErkyeyTk1GeRCrNnhAPx6 $AMOUNT
+chain sendtoaddress RCnvu1JPhpThjzQJwq9QDbNjrDRVPHVhka $AMOUNT
+chain sendtoaddress RDcDHCnB6TZfQ75CyTkjnntc45L53X6XYW $AMOUNT
+chain sendtoaddress RRYdh3fqcMBHpmVTwCff8yiZcsLZKWFALo $AMOUNT
+chain sendtoaddress RMZZmexNwKXwwzxmdJ5YoyZFausbmBQ7gc $AMOUNT
+chain sendtoaddress RTbJtMpFnxE4FxxV4JSUGEFjd9C7xruHRp $AMOUNT
