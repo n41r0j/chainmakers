@@ -1,7 +1,7 @@
 #!/bin/bash
 
 alias chain="komodo-cli -ac_name=CHAIN"
-AMOUNT=$(echo 999999*0.10 / 43 | bc )
+AMOUNT=$(echo 999999*0.10 / 31 | bc )
 echo "Airdropping $AMOUNT to each voter!"
 
 # Comment this out to Do The Thing
@@ -39,14 +39,3 @@ chain sendtoaddress RCyPv5yxQBEXneh9pX4Wofj76mDieXbmLw $AMOUNT
 chain sendtoaddress RBaaVttGxqWJDHKucn7VVwsywkwu2CrDPf $AMOUNT
 chain sendtoaddress REJpKpXKb2yx32ZAMuXZZKCmKv9ux7N2n5 $AMOUNT
 chain sendtoaddress RLimUpPv5KPfU79NaN3tBxvRP1hyam65FH $AMOUNT
-chain sendtoaddress RKm2BWQwZnrDrGKQRa3h7YnQfNXuJbTm7v $AMOUNT
-chain sendtoaddress RR7Y9wfEGatAhk7iL6wA8ypuRKxSef1Kzc $AMOUNT
-chain sendtoaddress RK5xVwfd1Qf8iuTymMUUri22rYxDW3396R $AMOUNT
-chain sendtoaddress RKdCvGQZbjUf51ae6xsNu5by8tZL5ztjhW $AMOUNT
-chain sendtoaddress R9oU3HRLzRDUaKwibUipkJxQ38zS9tCqDg $AMOUNT
-chain sendtoaddress RCtGSN2FKuoaWErkyeyTk1GeRCrNnhAPx6 $AMOUNT
-chain sendtoaddress RCnvu1JPhpThjzQJwq9QDbNjrDRVPHVhka $AMOUNT
-chain sendtoaddress RDcDHCnB6TZfQ75CyTkjnntc45L53X6XYW $AMOUNT
-chain sendtoaddress RRYdh3fqcMBHpmVTwCff8yiZcsLZKWFALo $AMOUNT
-chain sendtoaddress RMZZmexNwKXwwzxmdJ5YoyZFausbmBQ7gc $AMOUNT
-chain sendtoaddress RTbJtMpFnxE4FxxV4JSUGEFjd9C7xruHRp $AMOUNT
