@@ -1,7 +1,7 @@
 #!/bin/bash
 
 alias chain="komodo-cli -ac_name=CHAIN"
-AMOUNT=$(echo 999999*0.10 / 31 | bc )
+AMOUNT=$(echo 999999*0.10 / 47 | bc )
 echo "Airdropping $AMOUNT to each voter!"
 
 # Comment this out to Do The Thing
